@@ -3,27 +3,27 @@
 
 ##Instance creation
 
-###Step-1
+### Step-1
 
 ```sh
 Create an account at https://console.cloud.google.com
 Provide your credit or Debit card details
 ```
 
-###Step-2
+### Step-2
 
 ```sh
 In Google cloud select Top-Left menu 
 Select option Compute engine
 You should see create instances active on right side panel of screen
 ```
-###Step-3
+### Step-3
 
 ```sh
 
 Select Create instance option
 
-####Name Node
+#### Name Node
 
 ```sh
 Give name as NameNode for first instance(Any name is fine.For our convenience)
@@ -34,17 +34,17 @@ Select your convenient operating system(Make sure you don’t forget the selecte
 Check the boxes Allow http and https boxes respectively
 Click on create 
 
-####DataNode
+#### DataNode
 ```sh
 Select Create instance option
 Follow the steps same as the Name node and create three(Can create any number ) instances with different names as datanode1,danode2,datanode3(again any name is fine.For convenience) respectively.
 ```
 
-##Configuring the Nodes
+## Configuring the Nodes
 
 Click on SSH option of every instance you have created
 
-###Step-1(Root login and Password setup)
+### Step-1(Root login and Password setup)
 
 ```sh
 ********************Do the following on every instance(Node) *******************************
@@ -53,7 +53,7 @@ Type command passwd to change your root password
 Enter any password and re-enter it
 ```
 
-###Step-2(Passwordless ssh)
+### Step-2(Passwordless ssh)
 
 ```sh
 This step is used for communication between Namenode and datanodes without any authorization.For which we generate the public key in Namenode and copy the same as authorized_keys in  our data nodes.
@@ -73,7 +73,7 @@ Now press i to use insert option
 Now paste the public key copied from NameNode(Warning:Paste properly make sure it is same as the id_rsa.pub of NameNode)
 ```
 
-###Step-3(Changing SSHD configuration)
+### Step-3(Changing SSHD configuration)
 
 ```sh
 *********************************In all Instances *********************************************
@@ -87,7 +87,7 @@ Now hit Escape(Esc) and type :wq  and hit enter
 Now restart service using service sshd restart
 ```
 
-###Step-4(Disabling Firewall)
+### Step-4(Disabling Firewall)
 
 ```sh
 *********************************In all Instances *********************************************
@@ -97,7 +97,7 @@ If firewall is active,using service firewalld stop stop the firewall
 To make it always off use chkconfig firewalld off
 ```
 
-###Step-5(Installing Server using HTTPD)
+### Step-5(Installing Server using HTTPD)
 
 ```sh
 *********************************In all Instances *********************************************
@@ -108,7 +108,7 @@ use cd ~  to move to home
 To make it always ON use chkconfig httpd on
 ```
 
-###Step-6(Disabling SeLinux)
+### Step-6(Disabling SeLinux)
 
 ```sh
 Now type vi /etc/sysconfig/SeLinux 
@@ -117,7 +117,7 @@ enforcing---> disabled
 Now hit Escape(Esc) and type :wq  and hit enter 
 ```
 
-###Step-7(Checking password less login)
+### Step-7(Checking password less login)
 
 ```sh
 In NAMENODE
@@ -129,7 +129,7 @@ You should be able to login to datanode1 without any password
 (during copy paste in step-2 sometimes you may encounter new lines.So,make sure they are same)
 ```
 
-###Step-8(Creating Firewall Rule)
+### Step-8(Creating Firewall Rule)
 
 ```sh
 In your google console page,to the top left corner hit on Menu  
@@ -145,7 +145,7 @@ Allowed protocol ports:tcp:0-65000
 And save the firewall rule
 ```
 
-###Step-9(Installing Cloudera on NameNode)
+### Step-9(Installing Cloudera on NameNode)
 
 ```sh
 **********************only on NameNode***************************
@@ -164,7 +164,7 @@ If Everything Works Well you see below screen
 Hit Next and then ok.Wait until it completes the installation.
 
 
-###Step-10(Logging in to your Cloudera Manager Admin Console)
+### Step-10(Logging in to your Cloudera Manager Admin Console)
 
 ```sh
 In NameNode use sudo service cloudera-scm-server start to start the cloudera server.
