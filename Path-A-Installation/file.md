@@ -22,6 +22,7 @@ You should see create instances active on right side panel of screen
 ```sh
 
 Select Create instance option
+```
 
 #### Name Node
 
@@ -33,7 +34,7 @@ Select machine type according to your requirement(2 cpus will be fine)
 Select your convenient operating system(Make sure you don’t forget the selected operating system and its version)
 Check the boxes Allow http and https boxes respectively
 Click on create 
-
+```
 #### DataNode
 ```sh
 Select Create instance option
