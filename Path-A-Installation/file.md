@@ -1,7 +1,7 @@
-                                  Hadoop Path - A Multi node cluster Setup(Without External Databases)
+                                 # Hadoop Path - A Multi node cluster Setup(Without External Databases)
 
 
-##Instance creation
+## Instance creation
 
 ### Step-1
 
