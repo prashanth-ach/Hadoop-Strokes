@@ -158,9 +158,11 @@ Change the permissions of above file using chmod u+x cloudera-manager-installer.
 Now install the file using below command
 sudo ./cloudera-manager-installer.bin --skip_repo_package=1
 If Everything Works Well you see below screen
-![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/1.png)
-Hit Next and then ok.Wait until it completes the installation.
 ```
+![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/1.png)
+
+Hit Next and then ok.Wait until it completes the installation.
+
 
 ### Step-10(Logging in to your Cloudera Manager Admin Console)
 
@@ -168,6 +170,7 @@ In NameNode use sudo service cloudera-scm-server start to start the cloudera ser
 Now move to your Google Console Instances page and copy the external ip of your Namenode
 Now in your browser open new window type http://(paste copied external ip):7180 and hit enter
 You should see the below screen
+
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/2.jpg)
 Now Input 
 Username:admin
@@ -176,28 +179,40 @@ And hit login
 
 Select the plan as required
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/3.png)
+
 And hit continue
 Now screen like below appears
+
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/4.jpg)
+
 In the above window enter all your instance names or their external ip address
 Now hit search,you must be able to see all your Namenode and DataNodes.
-Select everything and hit continue
- 
 Select everything and hit continue.Continue until you see below screen
+
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/5.png)
+
 In the above screen select installing oracle jdk
 Hit continue until you see below screen(don’t select or make any changes)
+
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/6.png)
+
 Wait until the above installation is complete and hit continue until you see the below screen
+
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/7.png)
+
 In the below screen select Core Hadoop option or You may customize your services.
+
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/8.png)
+
 Now hit continue until you see your Database setup screen
 In database setup screen hit Test Connection and wait until the test finishes(it May skip few)
 Hit continue until you see the below screen.Wait until it finishes.
+
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/9.png)
+
 Once the above steps are done you see the below screen
+
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/10.png)
 
-                                *******************WELCOME TO YOUR CLOUDERA ADMIN CONSOLE*****************
+                        *******************WELCOME TO YOUR CLOUDERA ADMIN CONSOLE*****************
 
