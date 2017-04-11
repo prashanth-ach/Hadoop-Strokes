@@ -1,4 +1,4 @@
-                                  #Hadoop Path - A Multi node cluster Setup(Without External Databases)
+                                  Hadoop Path - A Multi node cluster Setup(Without External Databases)
 
 
 ##Instance creation
@@ -163,7 +163,7 @@ If Everything Works Well you see below screen
 
 
 Hit Next and then ok.Wait until it completes the installation.
-
+```
 
 ### Step-10(Logging in to your Cloudera Manager Admin Console)
 
