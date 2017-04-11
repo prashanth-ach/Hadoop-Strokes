@@ -164,12 +164,11 @@ Hit Next and then ok.Wait until it completes the installation.
 
 ### Step-10(Logging in to your Cloudera Manager Admin Console)
 
-```sh
 In NameNode use sudo service cloudera-scm-server start to start the cloudera server.
 Now move to your Google Console Instances page and copy the external ip of your Namenode
 Now in your browser open new window type http://(paste copied external ip):7180 and hit enter
 You should see the below screen
-![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/2.png)
+![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/2.jpg)
 Now Input 
 Username:admin
 Password:admin
@@ -179,7 +178,7 @@ Select the plan as required
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/3.png)
 And hit continue
 Now screen like below appears
-![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/4.png)
+![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/4.jpg)
 In the above window enter all your instance names or their external ip address
 Now hit search,you must be able to see all your Namenode and DataNodes.
 Select everything and hit continue
@@ -201,4 +200,4 @@ Once the above steps are done you see the below screen
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/10.png)
 
                                 *******************WELCOME TO YOUR CLOUDERA ADMIN CONSOLE*****************
-```
+
