@@ -173,34 +173,55 @@ Now in your browser open new window type http://(paste copied external ip):7180 
 You should see the below screen
  ```
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/2.jpg)
+
+```sh
 Now Input 
 Username:admin
 Password:admin
 And hit login
-
+```
+```sh
 Select the plan as required
+```
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/3.png)
+
+```sh
 And hit continue
 Now screen like below appears
+```
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/4.jpg)
+```sh
 In the above window enter all your instance names or their external ip address
 Now hit search,you must be able to see all your Namenode and DataNodes.
 Select everything and hit continue
- 
+ ```
+ ```sh
 Select everything and hit continue.Continue until you see below screen
+```
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/5.png)
+
+```sh
 In the above screen select installing oracle jdk
 Hit continue until you see below screen(don’t select or make any changes)
+```
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/6.png)
+```sh
 Wait until the above installation is complete and hit continue until you see the below screen
+```
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/7.png)
+```sh
 In the below screen select Core Hadoop option or You may customize your services.
+```
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/8.png)
+```sh
 Now hit continue until you see your Database setup screen
 In database setup screen hit Test Connection and wait until the test finishes(it May skip few)
 Hit continue until you see the below screen.Wait until it finishes.
+```
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/9.png)
+```sh
 Once the above steps are done you see the below screen
+```
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/10.png)
 
                                 *******************WELCOME TO YOUR CLOUDERA ADMIN CONSOLE*****************
