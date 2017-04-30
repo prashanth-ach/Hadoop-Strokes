@@ -1,4 +1,4 @@
-                               Hadoop Path - A Multi node cluster Setup(Without External Databases)
+Hadoop Path - A Multi node cluster Setup(Without External Databases)
 
 
 ## Instance creation
@@ -224,5 +224,6 @@ Once the above steps are done you see the below screen
 ```
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/10.png)
 
-                                *******************WELCOME TO YOUR CLOUDERA ADMIN CONSOLE*****************
+             *******************WELCOME TO YOUR CLOUDERA ADMIN CONSOLE*****************
+
 
