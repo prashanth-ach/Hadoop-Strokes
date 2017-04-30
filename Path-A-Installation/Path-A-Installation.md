@@ -158,10 +158,11 @@ Change the permissions of above file using chmod u+x cloudera-manager-installer.
 Now install the file using below command
 sudo ./cloudera-manager-installer.bin --skip_repo_package=1
 If Everything Works Well you see below screen
+```
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/1.png)
 
 Hit Next and then ok.Wait until it completes the installation.
-```
+
 
 ### Step-10(Logging in to your Cloudera Manager Admin Console)
 
@@ -170,12 +171,13 @@ In NameNode use sudo service cloudera-scm-server start to start the cloudera ser
 Now move to your Google Console Instances page and copy the external ip of your Namenode
 Now in your browser open new window type http://(paste copied external ip):7180 and hit enter
 You should see the below screen
+ ```
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/2.png)
 Now Input 
 Username:admin
 Password:admin
 And hit login
-```
+
 Select the plan as required
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/3.png)
 And hit continue
