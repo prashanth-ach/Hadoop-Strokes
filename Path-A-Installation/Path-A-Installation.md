@@ -172,7 +172,7 @@ Now move to your Google Console Instances page and copy the external ip of your 
 Now in your browser open new window type http://(paste copied external ip):7180 and hit enter
 You should see the below screen
  ```
-![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/2.png)
+![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/2.jpg)
 Now Input 
 Username:admin
 Password:admin
@@ -182,7 +182,7 @@ Select the plan as required
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/3.png)
 And hit continue
 Now screen like below appears
-![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/4.png)
+![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/4.jpg)
 In the above window enter all your instance names or their external ip address
 Now hit search,you must be able to see all your Namenode and DataNodes.
 Select everything and hit continue
