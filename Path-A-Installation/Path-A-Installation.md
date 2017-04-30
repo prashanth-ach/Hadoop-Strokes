@@ -175,7 +175,7 @@ Now Input
 Username:admin
 Password:admin
 And hit login
-
+```
 Select the plan as required
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/3.png)
 And hit continue
@@ -202,4 +202,4 @@ Once the above steps are done you see the below screen
 ![GitHub Logo](https://github.com/prashanth-ach/Hadoop-Strokes/blob/master/Path-A-Installation/imgs/10.png)
 
                                 *******************WELCOME TO YOUR CLOUDERA ADMIN CONSOLE*****************
-```
+
